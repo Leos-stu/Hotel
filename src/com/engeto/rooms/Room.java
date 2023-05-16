@@ -1,11 +1,11 @@
 package com.engeto.rooms;
 
 public class Room {
-    int numberOfRoom;
-    int roomNumberOfBeds;
-    boolean hasRoomBalcony;
-    boolean hasRoomSeaSight;
-    int roomPricePerNight;
+    private int numberOfRoom;
+    private int roomNumberOfBeds;
+    private boolean hasRoomBalcony;
+    private boolean hasRoomSeaSight;
+    private int roomPricePerNight;
 
     public Room(int numberOfRoom, int roomNumberOfBeds, boolean hasRoomBalcony, boolean hasRoomSeaSight, int roomPricePerNight) {
         this.numberOfRoom = numberOfRoom;

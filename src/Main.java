@@ -52,7 +52,7 @@ public class Main {
         }
 
         //vytvoreni rezervaci
-        Booking booking1 = new Booking(1,
+        Booking booking1 = new Booking(room2,
                                         1,
                                         LocalDate.of(2021,07,19),
                                         LocalDate.of(2021,07,26));
@@ -60,10 +60,10 @@ public class Main {
         booking1.setRoomGuestList(Arrays.asList(guest1));
         booking1.setTypeOfVacation((TypeOfVacation.BUSINESS).toString());
 
-        Booking booking2 = new Booking(3,
-                2,
-                LocalDate.of(2021,9,01),
-                LocalDate.of(2021,9,14));
+        Booking booking2 = new Booking(room3,
+                                        2,
+                                        LocalDate.of(2021,9,01),
+                                        LocalDate.of(2021,9,14));
 
         booking2.setRoomGuestList(Arrays.asList(guest1, guest2));
         booking2.setTypeOfVacation((TypeOfVacation.PRIVATE).toString());

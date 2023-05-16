@@ -1,6 +1,7 @@
 package com.engeto.bookings;
 
 import com.engeto.guests.Guest;
+import com.engeto.rooms.Room;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -8,15 +9,16 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Booking {
-    int roomId;
-    int numberOfGuests;
-    LocalDate dateFrom;
-    LocalDate dateTo;
+    //int roomId;
+    private Room room;
+    private int numberOfGuests;
+    private LocalDate dateFrom;
+    private LocalDate dateTo;
     List<Guest> roomGuestList;
-    String typeOfVacation;
+    private String typeOfVacation;
 
-    public Booking(int roomId, int numberOfGuests, LocalDate dateFrom, LocalDate dateTo) {
-        this.roomId = roomId;
+    public Booking(Room room, int numberOfGuests, LocalDate dateFrom, LocalDate dateTo) {
+        this.room = room;
         this.numberOfGuests = numberOfGuests;
         this.dateFrom = dateFrom;
         this.dateTo = dateTo;
@@ -50,7 +52,7 @@ public class Booking {
         }
 
         return "Booking: " +
-                "Room number: " + roomId +
+                "Room number: " + room.getNumberOfRoom() +
                 ", Number of guests: " + numberOfGuests +
                 ", Date from: " + dateFromFormatted +
                 ", Date to: " + dateToFormatted +
