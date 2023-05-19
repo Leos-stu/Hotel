@@ -1,4 +1,4 @@
-package com.engeto.guests;
+package com.engeto.hotel;
 
 import java.time.LocalDate;
 
