@@ -118,7 +118,7 @@ public class Main {
                 bookingManager.add(bookingKarelDvorak);
         //end vytvoreni rezervace Karel Dvořák
 
-        //vytvoreni rezervace Cestovní kancelář ABC Relax, pokoj číslo 2 na každý den v měsíci červnu 2023
+        //region vytvoreni rezervace Cestovní kancelář ABC Relax, pokoj číslo 2 na každý den v měsíci červnu 2023
             //vytvoreni a vlozeni rezervace
                 //vytvoreni hosta
                 Guest guest4 = new Guest("CestovniKancelar","ABC Relax", LocalDate.of(2020,10,1));
@@ -134,9 +134,9 @@ public class Main {
                     //vlozeni rezervace
                     bookingManager.add(booking);
                 }
-        //end vytvoreni rezervace Cestovní kancelář ABC Relax
+        //endregion vytvoreni rezervace Cestovní kancelář ABC Relax
 
-        //vytvoreni rezervace Alena Krásová, 7 rezervací pokoje číslo 1 vždy na prvních 5 dnů v měsící počínaje 1. 6. 2023, pracovní pobyty
+        //region vytvoreni rezervace Alena Krásová, 7 rezervací pokoje číslo 1 vždy na prvních 5 dnů v měsící počínaje 1. 6. 2023, pracovní pobyty
             //vytvoreni a vlozeni rezervace
                 //vytvoreni hosta
                 Guest guest5 = new Guest("Alena","Krásová", LocalDate.of(1999,12,31));
@@ -152,9 +152,9 @@ public class Main {
                     //vlozeni rezervace
                     bookingManager.add(booking);
                 }
-        //end vytvoreni rezervace Alena Krásová
+        //endregion vytvoreni rezervace Alena Krásová
 
-        //vytvoreni rezervace Cestovní kancelář ABC Relax, pokoj číslo 2, čtyři třídenní rezervace, které budou začínat 1., 7., 14. a 21. srpna 2023
+        //region vytvoreni rezervace Cestovní kancelář ABC Relax, pokoj číslo 2, čtyři třídenní rezervace, které budou začínat 1., 7., 14. a 21. srpna 2023
             //vytvoreni a vlozeni rezervace
             //vytvoreni hosta - pouziju jiz vyse vytvoreneho pro Cestovní kancelář
             //vytvoreni rezervace pomoci cyklu
@@ -169,7 +169,7 @@ public class Main {
                     //vlozeni rezervace
                     bookingManager.add(booking);
                 }
-        //end vytvoreni rezervace Cestovní kancelář ABC Relax, pokoj číslo 2, čtyři třídenní rezervace, které budou začínat 1., 7., 14. a 21. srpna 2023
+        //endregion vytvoreni rezervace Cestovní kancelář ABC Relax, pokoj číslo 2, čtyři třídenní rezervace, které budou začínat 1., 7., 14. a 21. srpna 2023
 
         //vypis celkoveho poctu rezervaci
         System.out.println("=====Number of all bookings by BookingManager=====");
