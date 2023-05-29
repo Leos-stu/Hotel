@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da85f2e8-2fb6-4d27-a284-d56645350cd9" name="Changes" comment="Adjustments to attributes&#10;&#10;Replaced var roomId in class Booking with Room room">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="da85f2e8-2fb6-4d27-a284-d56645350cd9" name="Changes" comment="Adjustment to .gitignore&#10;&#10;Added two entries to .gitignore file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +61,7 @@
       <workItem from="1684909196848" duration="1664000" />
       <workItem from="1684916037215" duration="636000" />
       <workItem from="1685030316594" duration="1238000" />
-      <workItem from="1685341151597" duration="899000" />
+      <workItem from="1685341151597" duration="1262000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1683890817963</created>
@@ -87,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684501749995</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adjustment to .gitignore&#10;&#10;Added two entries to .gitignore file">
+      <created>1685343751346</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685343751346</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Adjustments to attributes&#10;&#10;Replaced var roomId in class Booking with Room room" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjustments to attributes&#10;&#10;Replaced var roomId in class Booking with Room room" />
+    <MESSAGE value="Adjustment to .gitignore&#10;&#10;Added two entries to .gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjustment to .gitignore&#10;&#10;Added two entries to .gitignore file" />
   </component>
 </project>
